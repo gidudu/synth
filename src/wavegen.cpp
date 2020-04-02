@@ -8,9 +8,6 @@ int sign(double x){
 	return (x<0)?-1:((x==0)?0:1);
 }
 
-//THIS IS TERRIBLE CODING PRACTICE AND I SHOULD JUST USE A STRUCT INSTEAD
-//AAAAAAAAAH
-
 Wave::Wave(Wavetype my_type, double my_frequency, double my_volume, double my_x){
 	wavetype = my_type;
 	frequency = my_frequency;
